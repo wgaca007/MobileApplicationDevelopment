@@ -1,0 +1,19 @@
+API setup:
+
+The API to be used: Musixmatch
+
+1. Sign Up: https://developer.musixmatch.com/plans (Links to an external site.)Links to an external site. 
+
+- Select the Free plan and sign up.
+
+- Check email and verify the account.
+
+2. Login after you verify.
+
+3. Go to your account details from the upper right corner where you can see your username. (https://developer.musixmatch.com/admin/account (Links to an external site.)Links to an external site. )
+
+4. Go to Dashboard -> Application, you will see an API key is there for your application. That's your API Key. 
+
+5. Try different things following the documentation.
+
+6. Documentation: https://developer.musixmatch.com/documentation

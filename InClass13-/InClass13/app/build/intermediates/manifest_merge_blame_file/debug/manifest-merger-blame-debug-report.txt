@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.inclass13"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:6:5-40
+12-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:6:18-37
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:9:22-76
+16
+17    <application
+17-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:11:5-26:19
+18        android:allowBackup="true"
+18-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.1] C:\Users\raviteja\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:16:9-35
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:17:9-40
+26        <activity android:name="com.example.inclass13.AddTripActivity" />
+26-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:18:9-62
+26-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:18:19-50
+27        <activity android:name="com.example.inclass13.MainActivity" >
+27-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:19:9-25:20
+27-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:19:19-47
+28            <intent-filter>
+28-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:20:13-24:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:21:17-69
+29-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:21:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:23:17-77
+31-->C:\Users\raviteja\Desktop\MAD\InClass13-\InClass13\app\src\main\AndroidManifest.xml:23:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[com.squareup.picasso:picasso:2.71828] C:\Users\raviteja\.gradle\caches\transforms-2\files-2.1\f96ee034855812ea8c6dd346c8090b13\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+36            android:name="com.squareup.picasso.PicassoProvider"
+36-->[com.squareup.picasso:picasso:2.71828] C:\Users\raviteja\.gradle\caches\transforms-2\files-2.1\f96ee034855812ea8c6dd346c8090b13\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+37            android:authorities="com.example.inclass13.com.squareup.picasso"
+37-->[com.squareup.picasso:picasso:2.71828] C:\Users\raviteja\.gradle\caches\transforms-2\files-2.1\f96ee034855812ea8c6dd346c8090b13\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+38            android:exported="false" />
+38-->[com.squareup.picasso:picasso:2.71828] C:\Users\raviteja\.gradle\caches\transforms-2\files-2.1\f96ee034855812ea8c6dd346c8090b13\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+39    </application>
+40
+41</manifest>

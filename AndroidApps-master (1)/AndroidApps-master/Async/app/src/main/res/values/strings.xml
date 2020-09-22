@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">In Class 04</string>
+    <string name="min" />
+    <string name="max" />
+    <string name="avg" />
+    <string name="Minimum">Minimum:</string>
+    <string name="Maximum">Maximum:</string>
+    <string name="Average">Average:</string>
+    <string name="compval" />
+</resources>

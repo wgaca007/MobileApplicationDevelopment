@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Trip</string>
+    <string name="String_YourTrips">Your Trips</string>
+    <string name="String_CreateTrip">Create Trip</string>
+    <string name="String_DeleteTrip">Delete Trip</string>
+    <string name="String_Close">Close</string>
+    <string name="String_TripName">Trip Name</string>
+    <string name="String_TripNameValue" />
+    <string name="String_SelectCity">Select City</string>
+    <string name="String_AddPlaces">Add Places</string>
+    <string name="String_ViewTrip">View Trip</string>
+    <string name="String_AddToTrip">Add To Trip</string>
+    <string name="String_Cancel">Cancel</string>
+    <string name="city_prompt">Choose a City</string>
+    <string name="String_PlaceName">Place Name</string>
+    <string name="String_PlaceNameValue">Value</string>
+    <string name="String_CategoryValue">Value</string>
+    <string name="String_Latitude">Latitude</string>
+    <string name="String_LatitudeValue">Value</string>
+    <string name="String_LongitudeValue">Value</string>
+    <string name="String_Category">Category</string>
+    <string name="String_Longitude">Longitude</string>
+    <string name="String_SelectCityValue" />
+    <string name="String_Selected" />
+
+    <string-array name="city_arrays">
+        <item>Charlotte</item>
+        <item>Seattle</item>
+        <item>New York</item>
+        <item>Chicago</item>
+        <item>San Francisco</item>
+        <item>Boston</item>
+        <item>San Jose</item>
+        <item>Miami</item>
+    </string-array>
+    <string name="title_activity_trip_map">Map</string>
+    <string name="String_tv_Date" />
+    <string name="String_PickDate">Pick Date</string>
+    <string name="String_DateValue" >Value</string>
+    <string name="String_DateTrip">Date</string>
+    <string name="String_SelectCategory">Select Category</string>
+</resources>

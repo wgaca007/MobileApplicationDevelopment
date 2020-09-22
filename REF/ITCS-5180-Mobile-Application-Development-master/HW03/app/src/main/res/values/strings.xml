@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Music Search Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="String_SearchBar" />
+    <string name="String_Limit">Limit:</string>
+    <string name="String_LimitValue" />
+    <string name="String_Search">Search</string>
+    <string name="String_Reset">Reset</string>
+    <string name="String_SortBy">Sort By:</string>
+    <string name="String_Price">Price</string>
+    <string name="String_Date">Date</string>
+    <string name="String_Result">Result</string>
+    <string name="title_activity_display_activity">display_activity</string>
+    <string name="String_Track">Track:</string>
+    <string name="String_Genre">Genre:</string>
+    <string name="String_Artist">Artist:</string>
+    <string name="String_Album">Album:</string>
+    <string name="String_TrackPrize">Track Price:</string>
+    <string name="String_AlbumPrize">Album Price:</string>
+    <string name="String_GenreValue">123</string>
+    <string name="String_ArtistValue">123</string>
+    <string name="String_AlbumValue">123</string>
+    <string name="String_TrackPrizeValue">123</string>
+    <string name="String_AlbumPrizeValue">123</string>
+    <string name="String_Finish">Finish</string>
+    <string name="title_activity_track_detail_display">TrackDetail_display</string>
+    <string name="String_TrackList" />
+    <string name="String_PriceList" />
+    <string name="String_Dollar">$</string>
+    <string name="String_ArtistList" />
+    <string name="String_DateList" />
+</resources>

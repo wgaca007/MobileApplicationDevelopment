@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "186479846271",
+    "firebase_url": "https://tripplanner-fa23a.firebaseio.com",
+    "project_id": "tripplanner-fa23a",
+    "storage_bucket": "tripplanner-fa23a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186479846271:android:cf2c61b3e48c22e5",
+        "android_client_info": {
+          "package_name": "com.example.trip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186479846271-6ietbe7av5a0secgosg4mm1l91uedllq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcU8oEXiVj4jix8DGZBObOztZmzJaEh54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186479846271-6ietbe7av5a0secgosg4mm1l91uedllq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

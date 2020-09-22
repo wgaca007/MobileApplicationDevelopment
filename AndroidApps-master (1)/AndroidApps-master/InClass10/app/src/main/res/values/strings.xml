@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">InClass10</string>
+    <string name="addmovie">Add Movie</string>
+    <string name="edit">Edit</string>
+    <string name="deletemovie">Delete Movie</string>
+    <string name="listbyyear">Show list by Year</string>
+    <string name="listbyrating">Show list by Rating</string>
+    <string name="year">Year</string>
+    <string name="yearvalue" />
+    <string name="imdburl" />
+    <string name="ratingvalue" />
+    <string name="editmovie">Edit</string>
+
+    <string-array name="genre">
+        <item>Select</item>
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Others</item>
+    </string-array>
+</resources>

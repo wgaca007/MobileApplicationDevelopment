@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="ShowCategories">Categories</string>
+    <string name="GoButton">Select</string>
+    <string name="PublishTime" />
+    <string name="Title" />
+    <string name="Decription" />
+    <string name="Counter" />
+</resources>

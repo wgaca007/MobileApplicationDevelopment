@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ExpenseApp</string>
+    <string name="String_SaveChanges">SAVE CHANGES</string>
+    <string name="String_ExpenseDetails">Expense Detail</string>
+    <string name="String_Name">Name:</string>
+    <string name="String_ShowNameValue" />
+    <string name="String_Cost">Cost:</string>
+    <string name="String_Date">Date:</string>
+    <string name="String_Close">Close</string>
+    <string name="string_name">Name:</string>
+    <string name="string_cost">Cost:</string>
+    <string name="string_hint_name">Enter Name</string>
+    <string name="string_date">Date:</string>
+    <string name="string_receipt">Receipt:</string>
+    <string name="string_choose_image">Choose Image</string>
+    <string name="string_add_expense">Add</string>
+    <string name="string_hint_cost">Enter Cost:</string>
+    <string name="string_pick_date">Pick Date</string>
+    <string name="string_expenses">Expenses:</string>
+    <string name="string_total">Total:</string>
+</resources>

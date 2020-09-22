@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditExpense">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/container_editexpense"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/etEditExpenseAmout"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEditAmount"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
+            android:digits="0123456789."
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/tvEditAmount"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEditCategory"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="304dp"
+            android:text="@string/String_ExpenseAmountAdd"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spinnerEditCategory"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etEditExpenseName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="17dp"
+            android:entries="@array/spinnerItems" />
+
+        <TextView
+            android:id="@+id/tvEditCategory"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etEditExpenseName"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="29dp"
+            android:text="@string/String_Category"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/etEditExpenseName"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEditExpenseName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
+            android:ems="10"
+            android:hint="Expense Name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvEditExpenseName"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEditExpense"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="221dp"
+            android:text="@string/String_ExpenseName"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvEditExpense"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="77dp"
+            android:layout_marginEnd="100dp"
+            android:text="@string/String_EditExpense"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonEditSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etEditExpenseAmout"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="137dp"
+            android:layout_toStartOf="@+id/buttonEditCancel"
+            android:text="@string/String_Save" />
+
+        <Button
+            android:id="@+id/buttonEditCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etEditExpenseAmout"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/String_Cancel" />
+    </RelativeLayout>
+
+</FrameLayout>

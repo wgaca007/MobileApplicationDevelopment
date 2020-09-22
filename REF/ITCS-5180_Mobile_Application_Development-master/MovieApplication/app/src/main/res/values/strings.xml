@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MovieApplication</string>
+    <string name="movieName">Name</string>
+    <string name="yearValue" translatable="false">Year</string>
+    <string name="imdbValue">IMDB</string>
+    <string-array name="Genres">
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Others</item>
+    </string-array>
+</resources>

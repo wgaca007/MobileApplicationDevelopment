@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "250649172005",
+    "firebase_url": "https://expense-app-f541f.firebaseio.com",
+    "project_id": "expense-app-f541f",
+    "storage_bucket": "expense-app-f541f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250649172005:android:f0c9a5db3c0ecf63",
+        "android_client_info": {
+          "package_name": "com.example.finalexpense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250649172005-krku80ufg3detkbtpihpcgk181fn6lo2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finalexpense",
+            "certificate_hash": "f07f1711c698830ad056e886f71227a5413a600d"
+          }
+        },
+        {
+          "client_id": "250649172005-imo74q5aesme2m8itipq83r9cjslo5bb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM3PKiTfIbFrd0hxHBIB1w8H4CXL1mjZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250649172005-imo74q5aesme2m8itipq83r9cjslo5bb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

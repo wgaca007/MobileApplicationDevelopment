@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddExpense">
+
+    <RelativeLayout
+        android:id="@+id/container_addexpense"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView_AddAnExpense"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="77dp"
+            android:layout_marginEnd="100dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:text="@string/String_AddAnExpense" />
+
+        <EditText
+            android:id="@+id/editText_ExpenseNameValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_ExpenseName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
+            android:ems="10"
+            android:hint="Expense Name"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/spinner_Category"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_Category"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="24dp"
+            android:entries="@array/spinnerItems" />
+
+        <EditText
+            android:id="@+id/editText_ExpenseAmountValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="24dp"
+            android:ems="10"
+            android:hint="Amount"
+            android:digits="0123456789."
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/button_AddExpense"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/editText_ExpenseAmountValue"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/String_AddExpense" />
+
+        <Button
+            android:id="@+id/button_Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/editText_ExpenseAmountValue"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="60dp"
+            android:text="@string/String_Cancel" />
+
+        <TextView
+            android:id="@+id/textView_ExpenseName"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_AddAnExpense"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="246dp"
+            android:text="@string/String_ExpenseName"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_Category"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="304dp"
+            android:text="@string/String_ExpenseAmountAdd"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView_Category"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText_ExpenseNameValue"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="304dp"
+            android:text="@string/String_Category"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

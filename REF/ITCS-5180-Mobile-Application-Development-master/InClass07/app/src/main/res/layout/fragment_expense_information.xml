@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExpenseInformation">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/container_expenseInformation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView_ExpenseDetails"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="77dp"
+            android:layout_marginEnd="110dp"
+            android:text="@string/String_ExpenseDetails"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_ExpenseDetails"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="40dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="30dp"
+            android:text="@string/String_Name" />
+
+        <TextView
+            android:id="@+id/textView_Category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_Name"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="25dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="@string/String_Category" />
+
+        <TextView
+            android:id="@+id/textView_Amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_Category"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="25dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="@string/String_ExpenseAmount" />
+
+        <TextView
+            android:id="@+id/textView_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_Amount"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="25dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="@string/String_Date" />
+
+        <TextView
+            android:id="@+id/textView_NameValue"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_ExpenseDetails"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@+id/textView_Name"
+            android:text="@string/String_NameValue"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView_CategoryValue"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_NameValue"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@+id/textView_Category"
+            android:text="@string/String_CategoryValue"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView_AmountValue"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_CategoryValue"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="134dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@+id/textView_Amount"
+            android:text="@string/String_AmountValue"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView_DateValue"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_AmountValue"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@+id/textView_Date"
+            android:text="@string/String_DateValue"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button_Close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_DateValue"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="161dp"
+            android:layout_marginTop="82dp"
+            android:layout_marginEnd="161dp"
+            android:text="@string/String_Close" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvPC2"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="132dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPL1" />
+
+    <TextView
+        android:id="@+id/tvPL2"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPC2"
+        tools:text="0" />
+
+    <TextView
+        android:id="@+id/tvPL1"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPC1" />
+
+    <TextView
+        android:id="@+id/tvForThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="40dp"
+        android:text="For Thread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvForAsync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:text="For AsyncTask"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbPLen1" />
+
+    <SeekBar
+        android:id="@+id/sbPCount1"
+        android:layout_width="190dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="60dp"
+        android:max="10"
+        android:progress="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvForThread" />
+
+    <SeekBar
+        android:id="@+id/sbPLen1"
+        android:layout_width="190dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="56dp"
+        android:max="16"
+        android:progress="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbPCount1" />
+
+    <SeekBar
+        android:id="@+id/sbPCount2"
+        android:layout_width="190dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="60dp"
+        android:max="10"
+        android:progress="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvForAsync" />
+
+    <SeekBar
+        android:id="@+id/sbPLen2"
+        android:layout_width="190dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="52dp"
+        android:max="16"
+        android:progress="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbPCount2" />
+
+    <TextView
+        android:id="@+id/tvPCount1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="32dp"
+        android:text="Password Count"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvForThread" />
+
+    <TextView
+        android:id="@+id/tvPLen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="28dp"
+        android:text="Password Length"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbPCount1" />
+
+    <TextView
+        android:id="@+id/tvPCount2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="36dp"
+        android:text="Password Count"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvForAsync" />
+
+    <TextView
+        android:id="@+id/tvPLen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="24dp"
+        android:text="Password Length"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbPCount2" />
+
+    <Button
+        android:id="@+id/buttonGenerate"
+        android:layout_width="fill_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="12dp"
+        android:text="Generate Password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbPLen2" />
+
+    <TextView
+        android:id="@+id/tvPC1"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+</android.support.constraint.ConstraintLayout>

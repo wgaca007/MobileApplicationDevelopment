@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">FinalExpense</string>
+    <string name="String_CurrentExpenseLabel">Current Expense:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="String_AddExpense">Add Expense</string>
+    <string name="String_Cancel">Cancel</string>
+    <string name="String_Add">ADD</string>
+    <string name="String_ExpenseNameList">Name</string>
+    <string name="String_ExpenseAmount">Amount</string>
+    <string name="String_Category">Category</string>
+    <string name="String_ExpenseName">Expense Name</string>
+    <string name="String_AddAnExpense">Add An Expense</string>
+    <string name="String_ExpenseDetails">Expense Details</string>
+    <string name="String_Name">Name</string>
+    <string name="String_Date">Date</string>
+    <string name="String_NameValue">Name Value</string>
+    <string name="String_CategoryValue">Category Value</string>
+    <string name="String_AmountValue">Amount Value</string>
+    <string name="String_DateValue">Date Value</string>
+    <string name="String_Close">Close</string>
+    <string name="String_ExpenseAmountAdd">Amount</string>
+    <string name="String_EmptyMessage">There is no expense to show. Please add your expense from the menu.</string>
+
+
+    <string-array name="spinnerItems">
+        <item>Select Category</item>
+        <item>Groceries</item>
+        <item>Invoice</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Rent</item>
+        <item>Trips</item>
+        <item>Utilities</item>
+        <item>Others</item>
+    </string-array>
+</resources>

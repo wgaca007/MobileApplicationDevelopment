@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/totallayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/citylayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tripnameitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cityitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/mapicon"
+            android:layout_height="match_parent"
+            android:layout_width="40dp"
+            android:layout_weight="0"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/ic_place_black_24dp" />
+
+        <ImageView
+            android:id="@+id/addplacesicon"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/ic_add_circle_black_24dp" />
+    </LinearLayout>
+</LinearLayout>

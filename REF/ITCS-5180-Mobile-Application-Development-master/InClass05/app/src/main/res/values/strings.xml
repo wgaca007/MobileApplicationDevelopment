@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PhotoGalleryApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="String_Next">Next</string>
+    <string name="String_Previous">Previous</string>
+    <string name="Srting_Go">GO</string>
+</resources>
